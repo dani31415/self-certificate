@@ -1,0 +1,6 @@
+basicConstraints = critical,CA:TRUE,pathlen:0
+keyUsage = critical,any
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+keyUsage = digitalSignature,keyEncipherment,cRLSign,keyCertSign
+extendedKeyUsage = serverAuth
